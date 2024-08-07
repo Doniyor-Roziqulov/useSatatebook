@@ -56,8 +56,8 @@ const Hero = () => {
                             onChange={(event) => setPrice(event.target.value)}
                             autoComplete="off"
                             required
-                            type="text"
-                            name="text"
+                            type="number"
+                            name="number"
                             placeholder="Enter the price of the book..."
                         />
                         <input
